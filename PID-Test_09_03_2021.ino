@@ -16,9 +16,9 @@ float  pwm_left, pwm_right;
 float PID, PID_P = 0, PID_I = 0, PID_D = 0;
 float error, error_previous;
 // PID CONSTANTS
-double Kp = 5;    // 3.55
-double Ki = 0;    // 0.005
-double Kd = 6;    // 2.05
+double Kp = 5;
+double Ki = 0; 
+double Kd = 6;
 int val_poti;
 
 double throttle = val_poti; //initial value of throttle to the motors
